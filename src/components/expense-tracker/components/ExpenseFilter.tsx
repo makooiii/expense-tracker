@@ -1,5 +1,5 @@
 import React from "react";
-import { categories } from "../../../App";
+import categories from "../category";
 
 interface Props {
   onSelectCategory: (category: string) => void;
